@@ -18,8 +18,8 @@
   "homepage": "https://github.com/eiriksm/tessel-pwm",
   "devDependencies": {
     "coveralls": "^2.11.2",
-    "istanbul": "^0.3.2",
-    "mocha": "^1.21.4",
-    "should": "^4.0.4"
+    "istanbul": "^0.3.14",
+    "mocha": "^2.2.5",
+    "should": "^6.0.3"
   }
 }
