@@ -1,7 +1,7 @@
 {
   "name": "tessel-pwm",
   "version": "1.0.0",
-  "description": "tessel-pwm ==========",
+  "description": "tessel-pwm",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
