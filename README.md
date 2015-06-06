@@ -32,8 +32,11 @@ var obj = {
   count: startLevel
 }
 setInterval(function() {
+  // On the first run of this interval, obj.count right here is 1;
   tp(obj);
-  myPin.pwmDutyCycle(obj.count); // obj.count is now 0.9
+  // Now, all of a sudden, obj.count is 0.9. Because of ^^.
+  // Next time, obj.count will be 0.8.
+  myPin.pwmDutyCycle(obj.count);
 }, 100);
 ```
 
