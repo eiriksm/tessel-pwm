@@ -29,11 +29,11 @@ gpio.pwmFrequency(980);
 
 var startLevel = 1;
 var obj = {
-    count: startLevel
+  count: startLevel
 }
 setInterval(function() {
-    p(obj);
-      myPin.pwmDutyCycle(obj.count);
+  tp(obj);
+  myPin.pwmDutyCycle(obj.count); // obj.count is now 0.9
 }, 100);
 ```
 
